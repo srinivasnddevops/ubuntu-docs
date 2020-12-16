@@ -1,0 +1,1 @@
+grubby --args="default_hugepagesz=2M hugepagesz=2M hugepages=8192 iommu=pt intel_iommu=on" --update-kernel /boot/vmlinuz-3.10.0-1127.19.1.el7.x86_64 
